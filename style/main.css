@@ -1,0 +1,138 @@
+:root {
+    --vermelho: #ffffff;
+    --preta: #111111;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, Serif;
+    color: white;
+}
+
+header .container{
+     display: flex;
+     flex-direction: row;
+        /* os elemntos acima colocam os itens deste elemento "header. contaneir" em linha horizontalmente */
+     align-items: center;
+        /* alinhando o conjunto dos elemntos ao centro da linha*/
+     justify-content: space-between;
+        /* criando um espaço entre h2 e nav(elementos da box container */
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Times New Roman', Times;
+    font-size: 30px;
+}
+
+.titulo{
+    color: #c75330;
+}
+
+/* format elementos <header> <nav> <a> caminho */
+header nav a{
+    text-decoration: none;
+    color:  #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* filme principal */
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.5)100%), url('/img/a.jpg');
+        /* acima estou atribuindo a img ao background e aplicando um degradé black 50%, o gradiente pede 2 cores, como quero um gradiente uniforma repito a mesma cor*/
+    height: 430px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+        /* desta vez o flex-direction está dispondo os elementos em coluna 1 sobre o outro. E desta vez o Justify-content irá normalizar os itens na vertical */
+    justify-content: center;
+    align-items: flex-start;
+        /* este format está alinhando os elementos à esquerda */
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+.filme-principal .titulo{
+    margin-top: 30%;
+    font-size: 35px;
+    font-family: 'Times', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: rgb(255, 255, 255);
+
+    padding: 15px 30px;
+    margin-bottom: 10%;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.botao:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: black;
+}
+
+.botao a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px;
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 10px;
+    /* editando toda a classe conteiner posso atriboir estes valores a todos os elementos que receberem esta classe */
+}
+
+.filme-principal .container{
+    width: 50%;
+    /* não permite que o texto se estique na tela right/left */
+}
+
+.box-filme{
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.sub{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: 'Times', Times, Serif;
+    color: rgb(255, 255, 255);
+}
+
+.contact_list {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.contact_list li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

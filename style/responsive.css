@@ -1,0 +1,25 @@
+/* ao inspecionar a pagina no chrome, ele mostra a resolução da tela, ao diminuir a tela (responsividade) posso ver a partir de qual resolução o layout começa a ficar bagunçado */
+
+/* vamos usar este aquivo CSS para formatar os elementos de classe do arquivo main.css */
+
+/* if media screen até 700px tamanho, aplicar a regra */
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    background-position: right;
+    /* desta forma quando a condição for atingida os elementos titulo menu serão dispostos em coluna um sobre o outro*/
+}
+
+    .botao{
+        margin-top: 5px;
+    }
+}
+
+/* neste caso, caso a tela tenha mais que 1000px então: */
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+    
+}
