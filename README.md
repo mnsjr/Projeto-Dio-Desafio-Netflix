@@ -1,4 +1,4 @@
-# Dio-Desafio-Netflix
+# Projeto-Dio-Desafio-Netflix
 HTML | CSS | Javascript  - O desafio consiste em clonar uma pagina da Netflix
 
 Neste desafio clonamos a interface de uma das páginas da Netflix. Utilizando tecnologias simples como HTML5, CSS3 e JavaScript. 
