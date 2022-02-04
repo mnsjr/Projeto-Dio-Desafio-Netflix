@@ -9,7 +9,7 @@ O desafio consiste em clonar uma pagina da Netflix
   <img align="center" alt="mnsJr-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div><br>
 
-Neste desafio clonamos a interface de uma das páginas da Netflix. Utilizando tecnologias simples como HTML5, CSS3 e JavaScript. 
+Neste desafio clonamos a interface de uma das páginas da Netflix. Utilizando tecnologias simples como HTML5, CSS3 e JavaScript e Bootstrap. 
 
 Para aproveitar o conhecimento transmitido, converti a página do exercício em uma página para meu portfólio profissional de vídeos de casamento.
 
