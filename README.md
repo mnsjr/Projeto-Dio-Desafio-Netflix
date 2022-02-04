@@ -1,5 +1,13 @@
 # Projeto-Dio-Desafio-Netflix
-HTML | CSS | Javascript  - O desafio consiste em clonar uma pagina da Netflix
+O desafio consiste em clonar uma pagina da Netflix
+
+</div>
+  <div style="display: inline_block"><br>
+  <img align="center" alt="mnsJr-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img align="center" alt="mnsJr-Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+  <img align="center" alt="mnsJr-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="mnsJr-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div><br>
 
 Neste desafio clonamos a interface de uma das páginas da Netflix. Utilizando tecnologias simples como HTML5, CSS3 e JavaScript. 
 
